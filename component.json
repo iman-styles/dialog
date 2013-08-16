@@ -1,0 +1,13 @@
+{
+  "name": "dialog",
+  "main": "index.scss",
+  "version": "0.0.1",
+  "dependencies": {},
+  "files": [
+    "assets/close.png",
+    "assets/close.svg"
+  ],
+  "styles": [
+    "index.scss"
+  ]
+}

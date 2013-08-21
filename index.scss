@@ -1,3 +1,7 @@
+@function dialog-url($path) {
+  @return url("../components/iman-styles-dialog/assets/#{$path}");
+}
+
 .dialog {
   -webkit-transition: opacity 200ms ease-out;
   -moz-transition: opacity 200ms ease-out;
@@ -24,8 +28,8 @@
     z-index: 1000;
     display: none;
     opacity: 0.8;
-    background: url('../local/dialog/assets/close.png');
-    background: url('../local/dialog/assets/close.svg'), none;
+    background: dialog-url('close.png');
+    background: dialog-url('close.svg'), none;
     height: 32px;
     width: 32px;
 

@@ -15,6 +15,12 @@
   z-index: 10001;
   opacity: 1;
 
+  // IE8
+  .no-csstransforms & {
+    border: 1px solid #ccc;
+    border-top: 5px solid #0088cc;
+  }
+
   .dialog__content {
     padding: 15px 20px;
   }
